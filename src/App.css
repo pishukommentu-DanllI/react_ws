@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.BlockItem{
+  display: flex;
+  gap: 36px;
+  align-items: center;
+}
+.Contaner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 39px 40px;
+  background-color: #F1D4D4;
+  gap: 10px;
+}
+.PriceBlock{
+  background-color: white;
+  padding: 3px 5px 2px 115px;
+
+}
+.Button{
+  background-color: #D9D9D9;
+  padding: 7px 36px 3px 36px;
+  border: 0;
+}
+.MainBlock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 36px 180px 55px 0;
+
+  background-color: #D9D9D9;
+  margin-bottom: 58px;
+}
+.BlockOerder{
+  flex-direction: column;
+  
+}
+
+.Button_order{
+  margin-top: 25px;
+}
+nav {
+  display: flex;
+  gap: 31px;
+}
